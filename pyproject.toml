@@ -1,0 +1,33 @@
+[project]
+name = "ragfacturation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.5.9",
+    "easyocr>=1.7.2",
+    "faiss-cpu>=1.14.3",
+    "fastapi>=0.136.3",
+    "google-generativeai>=0.8.6",
+    "langchain>=1.3.9",
+    "langchain-chroma>=1.1.0",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.4.7",
+    "langchain-google-genai>=4.2.5",
+    "langchain-huggingface>=1.2.2",
+    "langchain-text-splitters>=1.1.2",
+    "langgraph>=1.2.5",
+    "langgraph-cli[inmem]>=0.4.8",
+    "opencv-python-headless>=4.13.0.92",
+    "pillow>=12.2.0",
+    "pymongo>=4.17.0",
+    "pypdf>=6.13.2",
+    "pytesseract>=0.3.13",
+    "python-dotenv>=1.2.2",
+    "rapidfuzz>=3.14.6",
+    "requests>=2.34.2",
+    "sentence-transformers>=5.5.1",
+    "streamlit>=1.66.1",
+    "uvicorn>=0.49.0",
+]
